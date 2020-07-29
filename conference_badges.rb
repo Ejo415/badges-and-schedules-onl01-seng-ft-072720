@@ -22,10 +22,10 @@ end
 
 def printer(array)
   batch_badge_creator(array).each do |id|
-    puts id
+     id
 
   assign_rooms(array).each do |id|
-    puts id
+     id
   end
 end
 
