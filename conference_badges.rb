@@ -11,9 +11,10 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(array)
+  rooms + []
   counter = 1
   array.each do |name|
-    "Hello, #{name}, You'll be assigned to room #{counter}!"
-    counter+=1 
+    rooms << "Hello, #{name}, You'll be assigned to room #{counter}!"
+    counter += 1 
   end
 end
